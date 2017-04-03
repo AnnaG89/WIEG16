@@ -8,11 +8,8 @@ $string = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
 
 
 $unsorted = explode(" ", $string);
- 
 $sorted = natcasesort($unsorted);
-  
-foreach ($unsorted as $value) {
-     
+
+foreach($unsorted as $value){
     echo "$value<br>";
-     
 }
